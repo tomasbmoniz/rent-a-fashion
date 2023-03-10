@@ -1,2 +1,4 @@
 # rent-a-fashion
-My first project at WCS
+
+My first project at WCS.
+
