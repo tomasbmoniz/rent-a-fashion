@@ -157,14 +157,18 @@ main {
     text-decoration: none;
   }
   
+
   .contact-form {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
     flex: 1;
-    background-color: #f5f5f5;
+    background-color: rgb(212, 251, 248);
+    box-shadow: 2px 2px 2px rgba(138, 205, 242, 0.2);
     border-radius: 10px;
     padding: 30px;
+    max-width: 800px;
    
   }
   
@@ -176,9 +180,19 @@ main {
   
   .contact-form input[type="text"],
   .contact-form input[type="email"],
-  .contact-form input[type="tel"],
+  .contact-form input[type="tel"]
+   {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+  }
+
   .contact-form input[type="msg"] {
     width: 100%;
+    height: 100px;
     padding: 10px;
     font-size: 1.2rem;
     border-radius: 5px;
@@ -187,15 +201,17 @@ main {
   }
   
   .contact-form button {
-    display: block;
-    background-color: turquoise;
+
+    width: 50%;
+    background-color: black;
     color: #fff;
     padding: 10px 20px;
     font-size: 1.2rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    
   }
 
   .contact-form button:hover {
