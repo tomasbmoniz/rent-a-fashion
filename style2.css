@@ -106,8 +106,8 @@ footer{
   }
   
   
-  /* ------ homeContent ------ *//* ------ homeContent ------ */
-
+  /* ------ homeContent ------ */
+  
 
   section {
     padding: 20px;
@@ -117,7 +117,7 @@ footer{
 
     display: flex;
     flex-direction: row;
-    max-width: 800px;
+    max-width: 80%;
     margin: 0 auto;
     margin-left: auto;
     padding: 0 20px;
@@ -128,6 +128,9 @@ footer{
   
   .box {
   
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   border-radius: 20px;
   box-shadow: 2px 2px 2px rgba(138, 205, 242, 0.2);
   margin: 20px 0 20px 20px;
@@ -156,6 +159,7 @@ footer{
 
 
   .title {
+   
     font-size: 2em; 
     text-align: left;
     font-family: 'IBM Plex Mono';
@@ -163,6 +167,7 @@ footer{
   }
   
   .mission {
+    
     font-size: 1em; 
     text-align: left;
     font-family: 'IBM Plex Mono';
@@ -171,13 +176,16 @@ footer{
   }
   
   .subtitle {
+    
     font-size: 1.5em; 
     text-align: left;
     margin-left: 50px; 
     font-family: 'IBM Plex Mono';
+    margin-top: 100px;
   }
   
   .values {
+   
     font-size: 1em; 
     text-align: left;
     font-family: 'IBM Plex Mono';
