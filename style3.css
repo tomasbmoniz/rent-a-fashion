@@ -1,0 +1,281 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+header {
+  background-color: white;
+}
+
+footer{
+
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
+
+  /* ------ navBar ------ */
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    margin: 0px;
+  }
+  
+  .logo {
+    display: flex;
+    max-width: 200px;
+    margin: -40px 0px;
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    list-style-type: none;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .login-register {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 40px;
+  }
+  
+  .login a {
+    display: block;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    font-family: "IBM Plex Mono", monospace;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .register a {
+    display: block;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: grey;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    font-family: "IBM Plex Mono", monospace;
+    text-decoration: none;
+  }
+  
+  .login a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .register a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* ------ homeContent ------ */
+
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  .contact-info {
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  .contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #999;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info .subtitle {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+    color: turquoise;
+  }
+  
+  .contact-info a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .contact-form {
+    flex: 1;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  
+  .contact-form label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form button {
+    display: block;
+    background-color: turquoise;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+
+  /* ------ footer ------ */
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footerContent {
+    text-align: center;
+  }
+  
+  .footerLogo {
+    display: block;
+    align-items: center;
+    max-width: 200px;
+    margin: -20px auto 0 auto;
+    margin-bottom: -20px;
+  }
+  
+  .footerContent p {
+  
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .socials {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 10px;
+  }
+  
+  .socials li{
+    margin: 0 10px;
+  }
+  .socials a {
+    text-decoration: none;
+    color: #264ed1;
+    border-color: transparent;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .socials a i{
+    color: black;
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+  }
+  .socials a:hover i{
+    color: aqua;
+  }
+  
+  .footerLinks ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'IBM Plex Mono';
+  }
+  
+  .footerLinks li {
+    margin: 0 15px;
+  }
+  
+  .footerLinks a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    transition: color .4s ease;
+  }
+  
+  .footerLinks a:hover {
+    color: aqua
+  }
+  
+  .footerCopyright {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 15px;
+    color: #777;
+  }
