@@ -35,6 +35,11 @@ footer{
     display: flex;
     max-width: 200px;
     margin: -40px 0px;
+    cursor: pointer;
+  }
+
+  .logo:hover {
+    opacity: 0.8;
   }
   
   nav ul {
