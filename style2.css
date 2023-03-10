@@ -14,9 +14,6 @@ header {
 
 footer{
 
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     height: 200px;
     background-color: white;
@@ -104,7 +101,7 @@ footer{
   }
   
   
-  /* ------ homeContent ------ */
+  /* ------ homeContent ------ *//* ------ homeContent ------ */
 
 
   section {
@@ -182,4 +179,96 @@ footer{
     font-family: 'IBM Plex Mono';
     margin-left: 50px;
     
+  }
+
+/* ------ navBar ------ */
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footerContent {
+    text-align: center;
+  }
+  
+  .footerLogo {
+    display: block;
+    align-items: center;
+    max-width: 200px;
+    margin: -20px auto 0 auto;
+    margin-bottom: -20px;
+  }
+  
+  .footerContent p {
+  
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .socials {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 10px;
+  }
+  
+  .socials li{
+    margin: 0 10px;
+  }
+  .socials a {
+    text-decoration: none;
+    color: #264ed1;
+    border-color: transparent;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .socials a i{
+    color: black;
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+  }
+  .socials a:hover i{
+    color: aqua;
+  }
+  
+  .footerLinks ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'IBM Plex Mono';
+  }
+  
+  .footerLinks li {
+    margin: 0 15px;
+  }
+  
+  .footerLinks a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    transition: color .4s ease;
+  }
+  
+  .footerLinks a:hover {
+    color: aqua
+  }
+  
+  .footerCopyright {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 15px;
+    color: #777;
   }
